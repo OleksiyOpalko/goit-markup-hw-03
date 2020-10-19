@@ -1,0 +1,435 @@
+/* :root {
+    --main-text-cl: #555555;
+    --accent-cl: #ff6c00;
+    --black: #303030;
+    --gray: #9da4bd;
+    --white: #ffffff;
+    --dark-bg: #191c26;
+  } */
+
+body {
+    background-color: #FFFFFF;
+    color: rgba(117, 117, 117, 1);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+a { 
+    text-decoration: none;
+   } 
+
+ul {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: #212121;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.logo{
+    color: #212121;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.container{
+  width: 1170px;
+padding-left: 15px;
+padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+.logo-title{
+    color: #2196F3 
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: #2196F3;
+}
+
+.site-nav .link.current {
+color: #2196F3;
+}
+
+
+.contacts .link {
+    color: #757575;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+color: #2196F3;
+}
+
+.hero-title{
+    font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.section-title{
+    color: #212121;
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.hero-button{
+    color: #FFFFFF;
+    background-color:  #2196F3;
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+border-radius: 4px;
+}
+
+.portfolio-title{
+  color: #212121;
+  font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.section-presentation{
+    color: #212121;
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.section-team{
+    color: #212121;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.footer-contacts >a{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+/* .hero-button {
+    color: #FFFFFF;
+    background-color:  #2196F3;
+    padding: 10px 32px;
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+} */
+
+.button-portfolio{
+    color: #212121;
+    background-color: #F5F4FA;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+/* line-height: 1.14px; */
+letter-spacing: 0.02em;
+
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+color:#FFFFFF;
+background-color: #2196F3;
+}
+
+.section-portfolio{
+    color: rgba(117, 117, 117, 1);
+}
+/* #2196F3 */
+/* #212121 */
+/* #FFFFFF */
+/* #757575 */
+/* #2F303A */
+
+/* :root {
+  --main-text-cl: #555555;
+  --accent-cl: #ff6c00;
+  --black: #303030;
+  --gray: #9da4bd;
+  --white: #ffffff;
+  --dark-bg: #191c26;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--main-text-cl);
+}
+
+address {
+  font-style: normal;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--black);
+}
+
+.menu-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  color: var(--white);
+}
+
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--black);
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--black);
+}
+
+.page-title {
+  font-size: 72px;
+  line-height: 1.18;
+}
+
+.section-title {
+  font-size: 42px;
+  line-height: 1.167;
+}
+
+.section-label {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.item-title {
+  line-height: 1.389;
+  color: var(--black);
+}
+
+.team-item {
+  text-align: center;
+}
+
+.team-position {
+  font-size: 14px;
+  line-height: 1.357;
+  color: var(--accent-cl);
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--gray);
+}
+
+.dark-bg {
+  background-color: var(--dark-bg);
+  color: var(--gray);
+}
+
+.dark-bg .page-title,
+.dark-bg .section-title {
+  color: var(--white);
+}
+
+.dark-bg .section-label {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.dark-bg .btn {
+  color: var(--white);
+} */
+
+
+/* WebStudio
+
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height 
+
+letter-spacing: 0.03em;
+
+color: #2196F3; */
+
+
+
+/* Портфолио
+
+position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121; */
+
+
+/* Эффективные решения для вашего бизнеса
+
+
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% *
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF; */
+
+
+/* Внимание к деталям
+
+position: absolute;
+width: 270px;
+height: 16px;
+left: 215px;
+top: 774px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121; */
+
+
+/* Идейные соображения, а также начало повседневной работы по формированию позиции.
+
+
+position: absolute;
+width: 270px;
+height: 75px;
+left: 215px;
+top: 800px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% *
+
+letter-spacing: 0.03em;
+
+color: #757575; */
+
+
+/* Чем мы занимаемся
+
+
+position: absolute;
+width: 376px;
+height: 42px;
+left: 612px;
+top: 969px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121; */
