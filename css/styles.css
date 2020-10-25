@@ -39,6 +39,15 @@ a {
     text-decoration: none;
    } 
 
+.portfolio-work {
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+}
 ul {
     list-style: none;
     margin-top: 0px;
@@ -49,6 +58,7 @@ ul {
 footer {
   background-color: #2F303A;
   display: flex;
+  padding-top: 60px;
   padding-bottom: 60px;
   }
 
@@ -133,7 +143,6 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 display: block;
-padding-top: 60px;
 padding-bottom: 20px;
 }
 
@@ -232,9 +241,17 @@ color: #2196F3;
 }
 
 .hero {
-  background-color: #2F303A;
+  
+  background-color:#2F303A;
+  
   text-align: center;
   padding-top: 200px; 
+  /* max-width: 1600px;
+  height: 600px;
+  background-image:linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../images/hero.jpg); */
   /* background-repeat: no-repeat;
   background-position: center;
   height: 600px; */
@@ -483,18 +500,41 @@ padding-bottom: 30px;
   margin-right: 0px;
 }
 
-.advantage-title {
-  margin-right: 30px;
- 
 
+/* .advantage-title::before{
+  display: block;
+  content: '';
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+} */
+
+/* .vector1::before{
+  background-image: url(../images/Vector1.png);
 }
 
-.advantage-title:last-child {
- 
-  margin-right: 0px;
+.vector2::before{
+  background-image: url(../images/Vector2.png);
+}
+.vector3::before{
+  background-image: url(../images/Vector3.png);
+}
+.vector4::before{
+  background-image: url(../images/Vector4.png);
+} */
 
+.advantage-title {
+ margin-right: 30px;
+ }
+
+.advantage-title:last-child {
+   margin-right: 0px;
   }
-.container.portfolio-nav.centred{
+
+  .container.portfolio-nav.centred{
   justify-content:center
 }
 
